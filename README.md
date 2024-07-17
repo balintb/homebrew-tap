@@ -1,6 +1,12 @@
 # homebrew-tap
 Homebrew tap for @balintb
 
+To add the tap, run
+
+```console
+brew tap balintb/tap
+```
+
 ## Formulae
 
 ### `clipsyboogie`
