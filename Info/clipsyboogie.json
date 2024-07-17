@@ -1,0 +1,75 @@
+{
+  "name": "clipsyboogie",
+  "full_name": "clipsyboogie",
+  "tap": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "macOS cli clipboard logger\n",
+  "license": "MIT",
+  "homepage": "https://github.com/balintb/clipsyboogie",
+  "versions": {
+    "stable": "0.1.0",
+    "head": null,
+    "bottle": false
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/balintb/clipsyboogie/releases/download/v0.1.0/clipsyboogie_Darwin_arm64.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "bcc8bd1cad0716c7844f21d579de259b2ea63ebc3da393d7e058f58ff27e2fd2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {},
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "git",
+    "npm"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": null,
+  "ruby_source_path": null,
+  "ruby_source_checksum": {
+    "sha256": "2c021d004bcca4057ca0d1602c77c52f2834c0fc73e9f44efc7ef877ee0870c1"
+  }
+}
