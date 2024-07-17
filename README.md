@@ -9,7 +9,7 @@ brew tap balintb/tap
 
 ## Formulae
 
-### [`clipsyboogie`](https://github.com/balintb/clipsyboogie)
+### [`clipsyboogie`](https://github.com/balintb/clipsyboogie) ![clipsyboogie homebrew version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/balintb/homebrew-tap/master/Info/clipsyboogie.json&query=$.versions.stable&label=homebrew)
 
 ```console
 brew install balintb/tap/clipsyboogie
