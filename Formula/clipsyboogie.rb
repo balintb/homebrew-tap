@@ -6,7 +6,7 @@ class Clipsyboogie < Formula
   desc "macOS cli clipboard logger
 "
   homepage "https://github.com/balintb/clipsyboogie"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   depends_on "git"
@@ -14,16 +14,16 @@ class Clipsyboogie < Formula
   depends_on :macos
 
   on_intel do
-    url "https://github.com/balintb/clipsyboogie/releases/download/v0.1.0/clipsyboogie_Darwin_x86_64.tar.gz"
-    sha256 "b01fe566f97d947ff9cfffe648053331a5e93c735c29923a853702f5480418b4"
+    url "https://github.com/balintb/clipsyboogie/releases/download/v0.1.1/clipsyboogie_Darwin_x86_64.tar.gz"
+    sha256 "8c11e5710976a081b00831372dd637b73577cd3eb141d537949cbf83debb46f8"
 
     def install
       bin.install "clipsyboogie"
     end
   end
   on_arm do
-    url "https://github.com/balintb/clipsyboogie/releases/download/v0.1.0/clipsyboogie_Darwin_arm64.tar.gz"
-    sha256 "bcc8bd1cad0716c7844f21d579de259b2ea63ebc3da393d7e058f58ff27e2fd2"
+    url "https://github.com/balintb/clipsyboogie/releases/download/v0.1.1/clipsyboogie_Darwin_arm64.tar.gz"
+    sha256 "ec41a7a9513b5121d9bb47af64f1ead1c4ad09d93a854b2e66ff95b48c25148c"
 
     def install
       bin.install "clipsyboogie"
