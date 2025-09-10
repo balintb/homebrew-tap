@@ -1,20 +1,20 @@
 class C2f < Formula
   desc "CLI to write clipboard contents to a file"
   homepage "https://github.com/balintb/c2f"
-  version "0.0.5"
+  version "0.0.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/balintb/c2f/releases/download/v0.0.5/c2f-aarch64-apple-darwin.tar.xz"
-      sha256 "6568db40eae01d96bd733e19e5a429b45b7503a04e87bc25dd220d007eb87089"
+      url "https://github.com/balintb/c2f/releases/download/v0.0.6/c2f-aarch64-apple-darwin.tar.xz"
+      sha256 "3a9945c77798a5fff7cf5f581354a6ebbb4da932768a9990bedb8f9a3fcbe9d0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/balintb/c2f/releases/download/v0.0.5/c2f-x86_64-apple-darwin.tar.xz"
-      sha256 "cdf6114d228bc32e5e3ef73fa72f31eb9d3618c2c44b25451c1fe4a468efe999"
+      url "https://github.com/balintb/c2f/releases/download/v0.0.6/c2f-x86_64-apple-darwin.tar.xz"
+      sha256 "59cadc15a6b8cf85621eb08f88806664548511a4451b83cbbf81e65c823d64fd"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/balintb/c2f/releases/download/v0.0.5/c2f-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "f363bdbee772220b245d484035b7e68c711d923dc7e84155f67f9eb0cfcd2986"
+    url "https://github.com/balintb/c2f/releases/download/v0.0.6/c2f-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "aa900d44131070ab85871fee2e45652c53c5c22519dc2ddd94c9ee725d524d24"
   end
   license "MIT"
 
