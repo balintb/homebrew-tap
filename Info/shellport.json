@@ -1,0 +1,73 @@
+{
+  "name": "shellport",
+  "full_name": "balintb/tap/shellport",
+  "tap": "balintb/tap",
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Taxiway/runway maps in terminal",
+  "license": "MIT",
+  "homepage": "https://github.com/balintb/shellport",
+  "versions": {
+    "stable": "0.0.3",
+    "head": null,
+    "bottle": false
+  },
+  "urls": {
+    "stable": {
+      "url": "https://api.github.com/repos/balintb/shellport/tarball/v0.0.3",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "a27b624d6991e739dc30fad4e6a833bad95f5b11b58624a2debb3b47ff5133c4"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "compatibility_version": null,
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "bottle": {},
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "bun"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "deprecate_args": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "disable_args": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "c825ad5b7e4ede7409126ac41fd1e41bc02a0a47",
+  "ruby_source_path": "Formula/shellport.rb",
+  "ruby_source_checksum": {
+    "sha256": "f7c07c9a103680ec60bea064c2a8a333defb14589b05576aac43c9a9cb284440"
+  }
+}

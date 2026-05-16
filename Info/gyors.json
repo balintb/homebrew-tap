@@ -1,0 +1,90 @@
+{
+  "name": "gyors",
+  "full_name": "balintb/tap/gyors",
+  "tap": "balintb/tap",
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Keyboard-first launcher for macOS (alpha)",
+  "license": "MIT",
+  "homepage": "https://github.com/balintb/Gyors",
+  "versions": {
+    "stable": "0.1.0",
+    "head": "HEAD",
+    "bottle": false
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/balintb/Gyors/archive/refs/tags/v0.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "922c62d77510e3c7c31716d754c0ef81721dfb87f1fdc11d404ebba0ba18e9f7"
+    },
+    "head": {
+      "url": "https://github.com/balintb/Gyors.git",
+      "branch": "main",
+      "using": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "compatibility_version": null,
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "bottle": {},
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "14",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Gyors.app is installed to:\n  $HOMEBREW_PREFIX/opt/gyors/Gyors.app\n\nSymlink it into /Applications so it appears in Launchpad/Spotlight:\n  ln -sf \"$HOMEBREW_PREFIX/opt/gyors/Gyors.app\" /Applications/Gyors.app\n\nFirst launch will prompt for Accessibility permission. Grant it under\nSystem Settings -> Privacy & Security -> Accessibility, then relaunch.\n\nDefault hotkey is opt+shift+space. Override in\n~/Library/Application Support/Gyors/config.json after first launch.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "deprecate_args": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "disable_args": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "c825ad5b7e4ede7409126ac41fd1e41bc02a0a47",
+  "ruby_source_path": "Formula/gyors.rb",
+  "ruby_source_checksum": {
+    "sha256": "12359697ba4fd19e0e2e1fdb7fc587c6d19b9826553a78edf15312e52f23f6c0"
+  }
+}
