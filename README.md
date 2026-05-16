@@ -15,6 +15,12 @@ brew tap balintb/tap
 brew install balintb/tap/clipsyboogie
 ```
 
+### [`gyors`](https://github.com/balintb/Gyors) ![gyors homebrew version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/balintb/homebrew-tap/master/Info/gyors.json&query=$.versions.stable&label=homebrew)
+
+```console
+brew install balintb/tap/gyors
+```
+
 ## License
 
 [Apache 2.0](LICENSE)
