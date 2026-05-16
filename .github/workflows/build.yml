@@ -11,11 +11,17 @@ jobs:
 
     - name: brew info --json
       run: |
+        taps_dir="$(brew --repository)/Library/Taps/balintb"
+        mkdir -p "$taps_dir"
+        rm -rf "$taps_dir/homebrew-tap"
+        ln -s "$GITHUB_WORKSPACE" "$taps_dir/homebrew-tap"
+
         rm -rf Info
         mkdir -p Info
-        cd Formula
-        for formula in *.rb; do
-          brew info --json "$formula" | jq '.[0]? // .' > ../Info/${formula/%rb/json}
+        for formula in Formula/*.rb; do
+          name=$(basename "$formula" .rb)
+          brew info --json "balintb/tap/$name" \
+            | jq '.[0]? // .' > "Info/${name}.json"
         done
 
     - uses: stefanzweifel/git-auto-commit-action@v5
