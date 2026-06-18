@@ -65,7 +65,7 @@
   "post_install_steps": [],
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "e07f5810e2e699f5e8add01ef3809918a1d81ad5",
+  "tap_git_head": "12d89e6655cec014cf8e2084ba3242ffd02f9c65",
   "ruby_source_path": "Formula/cz.rb",
   "ruby_source_checksum": {
     "sha256": "67f440d0068ad612541deb986c3513dca3ede10985a51a85898db6cca3eae851"
