@@ -27,6 +27,7 @@
       "using": null
     }
   },
+  "patches": [],
   "revision": 0,
   "version_scheme": 0,
   "compatibility_version": null,
@@ -80,9 +81,10 @@
   "disable_replacement_formula": null,
   "disable_replacement_cask": null,
   "disable_args": null,
+  "post_install_steps": [],
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "c825ad5b7e4ede7409126ac41fd1e41bc02a0a47",
+  "tap_git_head": "e07f5810e2e699f5e8add01ef3809918a1d81ad5",
   "ruby_source_path": "Formula/gyors.rb",
   "ruby_source_checksum": {
     "sha256": "12359697ba4fd19e0e2e1fdb7fc587c6d19b9826553a78edf15312e52f23f6c0"

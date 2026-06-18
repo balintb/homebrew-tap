@@ -1,25 +1,25 @@
 {
-  "name": "clipsyboogie",
-  "full_name": "balintb/tap/clipsyboogie",
+  "name": "cz",
+  "full_name": "balintb/tap/cz",
   "tap": "balintb/tap",
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
-  "desc": "macOS cli clipboard logger\n",
+  "desc": "Resume past Claude Code sessions without remembering their IDs",
   "license": "MIT",
-  "homepage": "https://github.com/balintb/clipsyboogie",
+  "homepage": "https://github.com/balintb/cz",
   "versions": {
-    "stable": "0.1.1",
+    "stable": "0.1.0",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/balintb/clipsyboogie/releases/download/v0.1.1/clipsyboogie_Darwin_arm64.tar.gz",
+      "url": "https://github.com/balintb/cz/releases/download/v0.1.0/cz_0.1.0_darwin_arm64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "ec41a7a9513b5121d9bb47af64f1ead1c4ad09d93a854b2e66ff95b48c25148c"
+      "checksum": "8821a2474abefeca7a5e15fd02d6211c55b32b80e37bf35d00ccf3d1743d8fcb"
     }
   },
   "patches": [],
@@ -35,27 +35,13 @@
   "keg_only_reason": null,
   "options": [],
   "build_dependencies": [],
-  "dependencies": [
-    "git",
-    "npm"
-  ],
+  "dependencies": [],
   "test_dependencies": [],
   "recommended_dependencies": [],
   "optional_dependencies": [],
   "uses_from_macos": [],
   "uses_from_macos_bounds": [],
-  "requirements": [
-    {
-      "name": "macos",
-      "cask": null,
-      "download": null,
-      "version": null,
-      "contexts": [],
-      "specs": [
-        "stable"
-      ]
-    }
-  ],
+  "requirements": [],
   "conflicts_with": [],
   "conflicts_with_reasons": [],
   "link_overwrite": [],
@@ -80,8 +66,8 @@
   "post_install_defined": false,
   "service": null,
   "tap_git_head": "e07f5810e2e699f5e8add01ef3809918a1d81ad5",
-  "ruby_source_path": "Formula/clipsyboogie.rb",
+  "ruby_source_path": "Formula/cz.rb",
   "ruby_source_checksum": {
-    "sha256": "85b7af9826b62c0ee379bef3a618e8e0a1a457e50fd7f757793edeee5858ab61"
+    "sha256": "67f440d0068ad612541deb986c3513dca3ede10985a51a85898db6cca3eae851"
   }
 }

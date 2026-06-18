@@ -22,6 +22,7 @@
       "checksum": "a27b624d6991e739dc30fad4e6a833bad95f5b11b58624a2debb3b47ff5133c4"
     }
   },
+  "patches": [],
   "revision": 0,
   "version_scheme": 0,
   "compatibility_version": null,
@@ -63,9 +64,10 @@
   "disable_replacement_formula": null,
   "disable_replacement_cask": null,
   "disable_args": null,
+  "post_install_steps": [],
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "c825ad5b7e4ede7409126ac41fd1e41bc02a0a47",
+  "tap_git_head": "e07f5810e2e699f5e8add01ef3809918a1d81ad5",
   "ruby_source_path": "Formula/shellport.rb",
   "ruby_source_checksum": {
     "sha256": "f7c07c9a103680ec60bea064c2a8a333defb14589b05576aac43c9a9cb284440"
