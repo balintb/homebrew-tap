@@ -67,7 +67,7 @@
   "post_install_steps": [],
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "e07f5810e2e699f5e8add01ef3809918a1d81ad5",
+  "tap_git_head": "12d89e6655cec014cf8e2084ba3242ffd02f9c65",
   "ruby_source_path": "Formula/chezmoui.rb",
   "ruby_source_checksum": {
     "sha256": "aab7ce7047ee7e5dade5b0e0ed1f30bbe67feb327b659228f5abe6df08bc67e3"
