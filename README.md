@@ -9,6 +9,14 @@ brew tap balintb/tap
 
 ## Formulae
 
+### [`chezmoui`](https://github.com/balintb/chezmoui) ![chezmoui homebrew version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/balintb/homebrew-tap/master/Info/chezmoui.json&query=$.versions.stable&label=homebrew)
+
+A TUI for [chezmoi](https://www.chezmoi.io).
+
+```console
+brew install balintb/tap/chezmoui
+```
+
 ### [`clipsyboogie`](https://github.com/balintb/clipsyboogie) ![clipsyboogie homebrew version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/balintb/homebrew-tap/master/Info/clipsyboogie.json&query=$.versions.stable&label=homebrew)
 
 ```console
