@@ -43,4 +43,4 @@ brew install balintb/tap/gyors
 
 [Apache 2.0](LICENSE)
 
-Copyright [@balintb](https://balint.click/github)
+Copyright [@balintb](https://balintb.com)
