@@ -17,6 +17,14 @@ A TUI for [chezmoi](https://www.chezmoi.io).
 brew install balintb/tap/chezmoui
 ```
 
+### [`claude-afterlife`](https://github.com/balintb/claude-afterlife) ![claude-afterlife homebrew version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/balintb/homebrew-tap/master/Info/claude-afterlife.json&query=$.versions.stable&label=homebrew)
+
+Reopen Claude Code sessions lost to a reboot or a terminal quitting.
+
+```console
+brew install balintb/tap/claude-afterlife
+```
+
 ### [`clipsyboogie`](https://github.com/balintb/clipsyboogie) ![clipsyboogie homebrew version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/balintb/homebrew-tap/master/Info/clipsyboogie.json&query=$.versions.stable&label=homebrew)
 
 ```console
