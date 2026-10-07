@@ -1,25 +1,25 @@
 {
-  "name": "shellport",
-  "full_name": "balintb/tap/shellport",
+  "name": "claude-afterlife",
+  "full_name": "balintb/tap/claude-afterlife",
   "tap": "balintb/tap",
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
-  "desc": "Taxiway/runway maps in terminal",
+  "desc": "Reopen Claude Code sessions lost to a reboot or a terminal quitting",
   "license": "MIT",
-  "homepage": "https://github.com/balintb/shellport",
+  "homepage": "https://github.com/balintb/claude-afterlife",
   "versions": {
-    "stable": "0.0.3",
+    "stable": "0.1.0",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://api.github.com/repos/balintb/shellport/tarball/v0.0.3",
+      "url": "https://github.com/balintb/claude-afterlife/releases/download/v0.1.0/claude-afterlife_0.1.0_darwin_arm64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "a27b624d6991e739dc30fad4e6a833bad95f5b11b58624a2debb3b47ff5133c4"
+      "checksum": "b43a1a6d58ca07ad4197b94d06c196af4ef68428c6863da6b4f01e8b977edf7c"
     }
   },
   "patches": [],
@@ -35,9 +35,7 @@
   "keg_only_reason": null,
   "options": [],
   "build_dependencies": [],
-  "dependencies": [
-    "bun"
-  ],
+  "dependencies": [],
   "test_dependencies": [],
   "recommended_dependencies": [],
   "optional_dependencies": [],
@@ -47,7 +45,7 @@
   "conflicts_with": [],
   "conflicts_with_reasons": [],
   "link_overwrite": [],
-  "caveats": null,
+  "caveats": "To record your running Claude Code sessions every minute, run:\n  claude-afterlife install\n\nAfter a reboot or a terminal quit, reopen them with:\n  claude-afterlife restore\n",
   "installed": [],
   "linked_keg": null,
   "pinned": false,
@@ -68,8 +66,8 @@
   "post_install_defined": false,
   "service": null,
   "tap_git_head": "d5387c6cc32eb09a4696cd7e44cbdbfe8ff6f3ff",
-  "ruby_source_path": "Formula/shellport.rb",
+  "ruby_source_path": "Formula/claude-afterlife.rb",
   "ruby_source_checksum": {
-    "sha256": "f7c07c9a103680ec60bea064c2a8a333defb14589b05576aac43c9a9cb284440"
+    "sha256": "42cb0a00e113e2a9876c59a419bf2ee12da72dcf4fb420188d0ca6e08dbfcb2a"
   }
 }
