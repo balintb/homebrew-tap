@@ -65,7 +65,7 @@
   "post_install_steps": [],
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d5387c6cc32eb09a4696cd7e44cbdbfe8ff6f3ff",
+  "tap_git_head": "17aa80c93f80af01d8fa48f54252c840b770a685",
   "ruby_source_path": "Formula/claude-afterlife.rb",
   "ruby_source_checksum": {
     "sha256": "42cb0a00e113e2a9876c59a419bf2ee12da72dcf4fb420188d0ca6e08dbfcb2a"

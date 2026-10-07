@@ -1,25 +1,25 @@
 {
-  "name": "c2f",
-  "full_name": "balintb/tap/c2f",
+  "name": "llamago",
+  "full_name": "balintb/tap/llamago",
   "tap": "balintb/tap",
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
-  "desc": "CLI to write clipboard contents to a file",
+  "desc": "TUI for Ollama: chat, manage installed models, compare them side by side",
   "license": "MIT",
-  "homepage": "https://github.com/balintb/c2f",
+  "homepage": "https://github.com/balintb/llamago",
   "versions": {
-    "stable": "0.1.0",
+    "stable": "0.1.1",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/balintb/c2f/releases/download/v0.1.0/c2f-aarch64-apple-darwin.tar.xz",
+      "url": "https://github.com/balintb/llamago/releases/download/v0.1.1/llamago_0.1.1_darwin_arm64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "b815584feb2e4fd25d56529023d2595e26542494248002cbc8892d63d3809a12"
+      "checksum": "87c10d730f07580e7f69a529c849e3884a9ba50597646d2a2477c91c68829cd0"
     }
   },
   "patches": [],
@@ -45,7 +45,7 @@
   "conflicts_with": [],
   "conflicts_with_reasons": [],
   "link_overwrite": [],
-  "caveats": null,
+  "caveats": "llamago talks to a running Ollama server and does not start one. For a local one:\n  brew install ollama\n  ollama serve\n\nOr point it at another server with: llamago -host http://host:11434\n",
   "installed": [],
   "linked_keg": null,
   "pinned": false,
@@ -66,8 +66,8 @@
   "post_install_defined": false,
   "service": null,
   "tap_git_head": "17aa80c93f80af01d8fa48f54252c840b770a685",
-  "ruby_source_path": "Formula/c2f.rb",
+  "ruby_source_path": "Formula/llamago.rb",
   "ruby_source_checksum": {
-    "sha256": "245ad115cd9e3843f14c6784746984174f4ffa167345208c5ddcc8d42ff0f3a0"
+    "sha256": "79c556c99718152bebbce33134c0e3dbbffb3104e34b41ae72b570b3bdfafe7d"
   }
 }
