@@ -47,6 +47,14 @@ Keyboard-first launcher for macOS.
 brew install balintb/tap/gyors
 ```
 
+### [`llamago`](https://github.com/balintb/llamago) ![llamago homebrew version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/balintb/homebrew-tap/master/Info/llamago.json&query=$.versions.stable&label=homebrew)
+
+A TUI for [Ollama](https://ollama.com): chat, manage installed models, compare them side by side.
+
+```console
+brew install balintb/tap/llamago
+```
+
 ## License
 
 [Apache 2.0](LICENSE)
