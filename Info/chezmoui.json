@@ -9,17 +9,17 @@
   "license": "MIT",
   "homepage": "https://github.com/balintb/chezmoui",
   "versions": {
-    "stable": "0.1.0",
+    "stable": "0.2.0",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/balintb/chezmoui/releases/download/v0.1.0/chezmoui_0.1.0_darwin_arm64.tar.gz",
+      "url": "https://github.com/balintb/chezmoui/releases/download/v0.2.0/chezmoui_0.2.0_darwin_arm64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "6c1f1acd25aca59c377b8706a86b755488b1ac94e1e1325cb4d43c20c9b1d6d8"
+      "checksum": "89347d96b525fd4afd968e6962b6b4e5d96e3f2ec9db3f04ad810e625055343a"
     }
   },
   "patches": [],
@@ -67,9 +67,9 @@
   "post_install_steps": [],
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "17aa80c93f80af01d8fa48f54252c840b770a685",
+  "tap_git_head": "94cb969f53d9d1e0924ee48265ea5040a952cf26",
   "ruby_source_path": "Formula/chezmoui.rb",
   "ruby_source_checksum": {
-    "sha256": "aab7ce7047ee7e5dade5b0e0ed1f30bbe67feb327b659228f5abe6df08bc67e3"
+    "sha256": "b2b7967399a63760a05775910a6426732fd485c1220f44336e02a26e6eaf4a02"
   }
 }
