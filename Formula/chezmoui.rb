@@ -5,23 +5,23 @@
 class Chezmoui < Formula
   desc "A TUI for chezmoi."
   homepage "https://github.com/balintb/chezmoui"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   depends_on "chezmoi"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/balintb/chezmoui/releases/download/v0.1.0/chezmoui_0.1.0_darwin_x86_64.tar.gz"
-      sha256 "b735920e22e2745f9d9cba869f7f485db3775c5b746851a5edaa1bd3467893c5"
+      url "https://github.com/balintb/chezmoui/releases/download/v0.2.0/chezmoui_0.2.0_darwin_x86_64.tar.gz"
+      sha256 "83c1505b912364ad4928afc550de7522d44f7b731ac3be494d57e92ffdcd2654"
 
       define_method(:install) do
         bin.install "cmui"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/balintb/chezmoui/releases/download/v0.1.0/chezmoui_0.1.0_darwin_arm64.tar.gz"
-      sha256 "6c1f1acd25aca59c377b8706a86b755488b1ac94e1e1325cb4d43c20c9b1d6d8"
+      url "https://github.com/balintb/chezmoui/releases/download/v0.2.0/chezmoui_0.2.0_darwin_arm64.tar.gz"
+      sha256 "89347d96b525fd4afd968e6962b6b4e5d96e3f2ec9db3f04ad810e625055343a"
 
       define_method(:install) do
         bin.install "cmui"
@@ -31,15 +31,15 @@ class Chezmoui < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/balintb/chezmoui/releases/download/v0.1.0/chezmoui_0.1.0_linux_x86_64.tar.gz"
-      sha256 "0f55ab476625f8de1433d11d1ee48157369b9e986bd6622c5aa5c724bf5264b8"
+      url "https://github.com/balintb/chezmoui/releases/download/v0.2.0/chezmoui_0.2.0_linux_x86_64.tar.gz"
+      sha256 "346f4eb6f5ec131f938f9a1acb29acf0bf1dec9f4ea475dd031e320796eaf808"
       define_method(:install) do
         bin.install "cmui"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/balintb/chezmoui/releases/download/v0.1.0/chezmoui_0.1.0_linux_arm64.tar.gz"
-      sha256 "57581bbb6118411ec4cc2e19c23d90eca68184e8f6288b713bf4ac8dee5028f0"
+      url "https://github.com/balintb/chezmoui/releases/download/v0.2.0/chezmoui_0.2.0_linux_arm64.tar.gz"
+      sha256 "011e13b279ce38a79f59bc25fdb98f78040da8056d3f7ebdc73394848622cc97"
       define_method(:install) do
         bin.install "cmui"
       end
