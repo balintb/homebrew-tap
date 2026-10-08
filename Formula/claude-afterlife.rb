@@ -3,28 +3,28 @@
 class ClaudeAfterlife < Formula
   desc "Reopen Claude Code sessions lost to a reboot or a terminal quitting"
   homepage "https://github.com/balintb/claude-afterlife"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/balintb/claude-afterlife/releases/download/v0.1.0/claude-afterlife_0.1.0_darwin_arm64.tar.gz"
-      sha256 "b43a1a6d58ca07ad4197b94d06c196af4ef68428c6863da6b4f01e8b977edf7c"
+      url "https://github.com/balintb/claude-afterlife/releases/download/v0.2.0/claude-afterlife_0.2.0_darwin_arm64.tar.gz"
+      sha256 "6a3ce7cdd99a3b8e0dca5c6fc46f8fd023aa7bb6f5a018eb1d04e8ed20cd5132"
     end
     on_intel do
-      url "https://github.com/balintb/claude-afterlife/releases/download/v0.1.0/claude-afterlife_0.1.0_darwin_amd64.tar.gz"
-      sha256 "b0f6b72849ba8a5b5ba6173da98df38893204905c8ef0a549ab9cd857795ab54"
+      url "https://github.com/balintb/claude-afterlife/releases/download/v0.2.0/claude-afterlife_0.2.0_darwin_amd64.tar.gz"
+      sha256 "815fd6738e83193765f7d380f7d0e6ce8486e18861183327bb33f70c42c4beaa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/balintb/claude-afterlife/releases/download/v0.1.0/claude-afterlife_0.1.0_linux_arm64.tar.gz"
-      sha256 "6e8d4dd789ada1e375bc8fd6ca41c1f85bded138a99aef0bca1adbebc16aee0e"
+      url "https://github.com/balintb/claude-afterlife/releases/download/v0.2.0/claude-afterlife_0.2.0_linux_arm64.tar.gz"
+      sha256 "78f0ea9b04852809026c808e9a9a52c7f854804408bc7812c8daebf332bfdabe"
     end
     on_intel do
-      url "https://github.com/balintb/claude-afterlife/releases/download/v0.1.0/claude-afterlife_0.1.0_linux_amd64.tar.gz"
-      sha256 "fb4f91088218db2ac1aafafaf7f18a40904a3ddcc778e73b81e179ac08eb8298"
+      url "https://github.com/balintb/claude-afterlife/releases/download/v0.2.0/claude-afterlife_0.2.0_linux_amd64.tar.gz"
+      sha256 "267a0e4856e865073fdd6b395fd09a8bbaafe45c3bf88ab7e0eace0182077d74"
     end
   end
 
