@@ -25,6 +25,14 @@ Reopen Claude Code sessions lost to a reboot or a terminal quitting.
 brew install balintb/tap/claude-afterlife
 ```
 
+### [`claudeclean`](https://github.com/balintb/claudeclean) ![claudeclean homebrew version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/balintb/homebrew-tap/master/Info/claudeclean.json&query=$.versions.stable&label=homebrew)
+
+Browse Claude Code sessions by folder, move the ones you don't need to the Trash.
+
+```console
+brew install balintb/tap/claudeclean
+```
+
 ### [`clipsyboogie`](https://github.com/balintb/clipsyboogie) ![clipsyboogie homebrew version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/balintb/homebrew-tap/master/Info/clipsyboogie.json&query=$.versions.stable&label=homebrew)
 
 ```console
