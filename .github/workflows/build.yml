@@ -11,10 +11,12 @@ jobs:
 
     - name: brew info --json
       run: |
+        set -o pipefail
         taps_dir="$(brew --repository)/Library/Taps/balintb"
         mkdir -p "$taps_dir"
         rm -rf "$taps_dir/homebrew-tap"
         ln -s "$GITHUB_WORKSPACE" "$taps_dir/homebrew-tap"
+        brew trust balintb/tap
 
         rm -rf Info
         mkdir -p Info
